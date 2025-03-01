@@ -31,12 +31,10 @@
   --color-title: #ffC2e6;
   --color-title_shadow_header-bg_text: #ff8dcb;
   --color-button_hover: #32312d66;
-
-  --accent-background-image: url("../images/cover-image-light.png");
-    /* Дублируем переменные светлой темы */    
+  --accent-background-image: url("../images/cover-image-light.png");   
   }
 
-  .theme-auto .header_dark_item{
+  .theme-auto .header_dark_item {
     display: none;
   }
 }
