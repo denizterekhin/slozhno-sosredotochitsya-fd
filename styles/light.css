@@ -20,6 +20,10 @@
   */
 }
 
+.theme-light .header_dark_item {
+  display: none;
+}
+
 /* медиазапрос по светлой теме*/
 @media (prefers-color-scheme: light) {
   :root {
