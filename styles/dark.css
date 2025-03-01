@@ -5,12 +5,48 @@
 */
 
 :root.theme-dark {
+  --color-text-border: #ff0070;
+  --color-bg: #000028;
+  --color-text-title_decor: #000028;
+  --color-text-decor: #f1b2ce;
+  --color-title-shadow-footer:#ff0070;
+  --color-title: #db00ff;
+  --color-title_shadow_header-bg_text:#ff0070;
+  --color-button_hover: #ff007066;
+
+  --accent-background-image: url("../images/cover-image-dark.png");
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+/* итем "REC" с точкой*/
+.theme-dark .header_dark_item:before {
+  content: "REC";
+  display: inline-flex;
+  justify-self: end;
+  justify-content: center;
+  align-items: center;
+  align-self: start;
+  width: 33px;
+  height: 26px;
+  margin-right: 10px;
+  color: var(--color-text-border);
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+
+.theme-dark .header_dark_item:after {
+  content: "";
+  display: inline-flex;
+  width: 9px;
+  height: 9px;
+  margin-block-start: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px var(--color-text-border);
+  background: var(--color-text-border);
 }
