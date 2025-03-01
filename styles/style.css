@@ -293,7 +293,7 @@ h4 {
     padding-inline: 20px;
   }
 
-  .content_gr_tm_cl{
+  .content_gr_tm_cl {
     grid-template-columns: 0.5fr 1fr;
   }
 
@@ -397,7 +397,7 @@ h4 {
     white-space: normal;
   }
 
-  .content_gr_tm_cl{
+  .content_gr_tm_cl {
     grid-template-columns: 0.5fr 1fr;
     gap: 10px;
   }
