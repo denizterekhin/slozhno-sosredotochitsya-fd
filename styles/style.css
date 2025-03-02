@@ -55,7 +55,6 @@ h4 {
   justify-content: center;
   align-items: center;
   align-self: start;
-  width: 33px;
   margin-inline-end: 10px;
   color: var(--color-text-border);
   font-family: var(--font-family);
